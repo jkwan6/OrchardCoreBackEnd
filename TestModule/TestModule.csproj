@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.7.2" />
+  </ItemGroup>
+
 </Project>

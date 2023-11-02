@@ -11,6 +11,8 @@
 using System;
 using System.Reflection;
 
+[assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("TestModule", "Module")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestModule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

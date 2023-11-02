@@ -9390,6 +9390,19 @@
             "related": ".xml"
           }
         }
+      },
+      "TestModule/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OrchardCore.Module.Targets": "1.7.2"
+        },
+        "compile": {
+          "bin/placeholder/TestModule.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestModule.dll": {}
+        }
       }
     }
   },
@@ -26202,11 +26215,17 @@
         "zstring.2.5.0.nupkg.sha512",
         "zstring.nuspec"
       ]
+    },
+    "TestModule/1.0.0": {
+      "type": "project",
+      "path": "../TestModule/TestModule.csproj",
+      "msbuildProject": "../TestModule/TestModule.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "OrchardCore.Application.Cms.Targets >= 1.7.2"
+      "OrchardCore.Application.Cms.Targets >= 1.7.2",
+      "TestModule >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -26240,7 +26259,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\TestModule\\TestModule.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\TestModule\\TestModule.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

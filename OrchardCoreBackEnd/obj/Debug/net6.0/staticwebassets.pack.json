@@ -9,6 +9,30 @@
       "PackagePath": "staticwebassets\\.placeholder"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\Default\\is-cache\\8\\0\\a\\e\\a\\7\\1\\f\\6\\1\\e\\c\\80aea71f61ec.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\0\\a\\e\\a\\7\\1\\f\\6\\1\\e\\c\\80aea71f61ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\Default\\is-cache\\8\\0\\a\\e\\a\\7\\1\\f\\6\\1\\e\\c\\80aea71f61ec.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\0\\a\\e\\a\\7\\1\\f\\6\\1\\e\\c\\80aea71f61ec.meta"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\Default\\is-cache\\8\\6\\a\\1\\d\\5\\3\\1\\6\\2\\6\\5\\86a1d5316265.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\6\\a\\1\\d\\5\\3\\1\\6\\2\\6\\5\\86a1d5316265.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\Default\\is-cache\\8\\6\\a\\1\\d\\5\\3\\1\\6\\2\\6\\5\\86a1d5316265.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\6\\a\\1\\d\\5\\3\\1\\6\\2\\6\\5\\86a1d5316265.meta"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\Default\\is-cache\\c\\3\\b\\3\\c\\0\\2\\d\\0\\7\\5\\a\\c3b3c02d075a.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\3\\b\\3\\c\\0\\2\\d\\0\\7\\5\\a\\c3b3c02d075a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\Default\\is-cache\\c\\3\\b\\3\\c\\0\\2\\d\\0\\7\\5\\a\\c3b3c02d075a.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\3\\b\\3\\c\\0\\2\\d\\0\\7\\5\\a\\c3b3c02d075a.meta"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

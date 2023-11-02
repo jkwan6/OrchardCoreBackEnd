@@ -1,0 +1,104 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestModule/1.0.0": {
+        "dependencies": {
+          "OrchardCore.Module.Targets": "1.7.2"
+        },
+        "runtime": {
+          "TestModule.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "OrchardCore.Abstractions/1.7.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "ZString": "2.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Abstractions.dll": {
+            "assemblyVersion": "1.7.2.0",
+            "fileVersion": "1.7.2.0"
+          }
+        }
+      },
+      "OrchardCore.Module.Targets/1.7.2": {
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.2"
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Module.Targets.dll": {
+            "assemblyVersion": "1.7.2.0",
+            "fileVersion": "1.7.2.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "ZString/2.5.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/ZString.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "OrchardCore.Abstractions/1.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zn2XjrRQjL96N4NBjILdbjWiiLhNE/WhU0lpiU56zc2QvRbPagWrD2l+o08Jxg5BQSOYbtBQ1ExkX70975DW3A==",
+      "path": "orchardcore.abstractions/1.7.2",
+      "hashPath": "orchardcore.abstractions.1.7.2.nupkg.sha512"
+    },
+    "OrchardCore.Module.Targets/1.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LoIrA6J10GWQvc3O7pyHePaUJLSb3+k+Z1M59KsXdY8rYfqchFio7lxjUMBR8z7YyVrriuCoZjW7JiTcaEOSNQ==",
+      "path": "orchardcore.module.targets/1.7.2",
+      "hashPath": "orchardcore.module.targets.1.7.2.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "ZString/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xd503npIf5kAN8LAugMlOthWIPQGsyp/rvLxuPlTrHFf28YyYyDfsdLz1n3tvd+87PiAXZrJh0gtWulWtcBTGg==",
+      "path": "zstring/2.5.0",
+      "hashPath": "zstring.2.5.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,6 +1,8 @@
-﻿namespace TestModule
+﻿using OrchardCore.Modules;
+
+namespace TestModule
 {
-    public class Startup
+    public class Startup: StartupBase
     {
 
     }

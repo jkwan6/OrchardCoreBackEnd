@@ -1,0 +1,12 @@
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\bin\Debug\net6.0\TestModule.deps.json
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\bin\Debug\net6.0\TestModule.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\bin\Debug\net6.0\TestModule.pdb
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\TestModule.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\TestModule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\TestModule.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\TestModule.AssemblyInfo.cs
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\TestModule.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\TestModule.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\refint\TestModule.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\TestModule.pdb
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\TestModule\obj\Debug\net6.0\ref\TestModule.dll
