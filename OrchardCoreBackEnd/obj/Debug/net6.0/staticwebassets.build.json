@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ajo3P37Uo+iBxht0+h1KvzNcw4SMF9Md59xGZw62wQ4=",
+  "Hash": "LlrFENMox+E/h18miamAdXXRAGGsm/6VoSpgrXUSzZM=",
   "Source": "OrchardCoreBackEnd",
   "BasePath": "_content/OrchardCoreBackEnd",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OrchardCoreBackEnd.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\.placeholder",
+      "SourceId": "OrchardCoreBackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\",
+      "BasePath": "_content/OrchardCoreBackEnd",
+      "RelativePath": ".placeholder",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\.placeholder"
     },
     {
       "Identity": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreBackEnd\\wwwroot\\css\\site.css",
