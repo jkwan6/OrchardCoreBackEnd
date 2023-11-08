@@ -24,6 +24,8 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.themes\1.7.2\build\OrchardCore.Themes.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.themes\1.7.2\build\OrchardCore.Themes.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.admin\1.7.2\build\OrchardCore.Admin.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.admin\1.7.2\build\OrchardCore.Admin.props')" />
     <Import Project="$(NuGetPackageRoot)theadmin\1.7.2\build\TheAdmin.props" Condition="Exists('$(NuGetPackageRoot)theadmin\1.7.2\build\TheAdmin.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props')" />
     <Import Project="$(NuGetPackageRoot)safemode\1.7.2\build\SafeMode.props" Condition="Exists('$(NuGetPackageRoot)safemode\1.7.2\build\SafeMode.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.xmlrpc\1.7.2\build\OrchardCore.XmlRpc.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.xmlrpc\1.7.2\build\OrchardCore.XmlRpc.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.workflows\1.7.2\build\OrchardCore.Workflows.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.workflows\1.7.2\build\OrchardCore.Workflows.props')" />
@@ -127,6 +129,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\User\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\User\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgLucene_Net Condition=" '$(PkgLucene_Net)' == '' ">C:\Users\User\.nuget\packages\lucene.net\4.8.0-beta00016</PkgLucene_Net>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\User\.nuget\packages\awssdk.core\3.7.106.32</PkgAWSSDK_Core>
     <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\User\.nuget\packages\awssdk.securitytoken\3.7.101.60</PkgAWSSDK_SecurityToken>

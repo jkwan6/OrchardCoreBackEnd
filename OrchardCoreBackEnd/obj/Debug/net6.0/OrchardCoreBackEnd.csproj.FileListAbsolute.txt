@@ -429,3 +429,7 @@ C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\obj\De
 C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\obj\Debug\net6.0\OrchardCoreBackEnd.csproj.CopyComplete
 C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\TestModule.dll
 C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\TestModule.pdb
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
