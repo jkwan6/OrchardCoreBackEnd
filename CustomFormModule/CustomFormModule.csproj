@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="View\ContactFormViewModel.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="View\ContactFormViewModel.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.ContentFields" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.Forms" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.7.2" />
+  </ItemGroup>
+
+</Project>

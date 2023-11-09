@@ -32,6 +32,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\1\c\0\8\d\c\6\3\7\f\0\7\1c08dc637f07.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/1/c/0/8/d/c/6/3/7/f/0/7/1c08dc637f07.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\1\c\0\8\d\c\6\3\7\f\0\7\1c08dc637f07.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\1\c\0\8\d\c\6\3\7\f\0\7\1c08dc637f07.meta))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/1/c/0/8/d/c/6/3/7/f/0/7/1c08dc637f07.meta</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\1\c\0\8\d\c\6\3\7\f\0\7\1c08dc637f07.meta))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\8\0\a\e\a\7\1\f\6\1\e\c\80aea71f61ec.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>OrchardCoreBackEnd</SourceId>
@@ -96,6 +128,70 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\8\6\a\1\d\5\3\1\6\2\6\5\86a1d5316265.meta))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\9\a\6\2\7\1\9\2\7\2\8\3\9a6271927283.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/9/a/6/2/7/1/9/2/7/2/8/3/9a6271927283.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\9\a\6\2\7\1\9\2\7\2\8\3\9a6271927283.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\9\a\6\2\7\1\9\2\7\2\8\3\9a6271927283.meta))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/9/a/6/2/7/1/9/2/7/2/8/3/9a6271927283.meta</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\9\a\6\2\7\1\9\2\7\2\8\3\9a6271927283.meta))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\a\6\6\4\1\2\8\4\c\a\7\e\a6641284ca7e.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/a/6/6/4/1/2/8/4/c/a/7/e/a6641284ca7e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\a\6\6\4\1\2\8\4\c\a\7\e\a6641284ca7e.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\a\6\6\4\1\2\8\4\c\a\7\e\a6641284ca7e.meta))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/a/6/6/4/1/2/8/4/c/a/7/e/a6641284ca7e.meta</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\a\6\6\4\1\2\8\4\c\a\7\e\a6641284ca7e.meta))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\c\3\b\3\c\0\2\d\0\7\5\a\c3b3c02d075a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>OrchardCoreBackEnd</SourceId>
@@ -127,6 +223,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\c\3\b\3\c\0\2\d\0\7\5\a\c3b3c02d075a.meta))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\e\7\3\d\e\3\f\3\c\8\b\6\e73de3f3c8b6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/e/7/3/d/e/3/f/3/c/8/b/6/e73de3f3c8b6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\e\7\3\d\e\3\f\3\c\8\b\6\e73de3f3c8b6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\e\7\3\d\e\3\f\3\c\8\b\6\e73de3f3c8b6.meta))">
+      <SourceType>Package</SourceType>
+      <SourceId>OrchardCoreBackEnd</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OrchardCoreBackEnd</BasePath>
+      <RelativePath>Default/is-cache/e/7/3/d/e/3/f/3/c/8/b/6/e73de3f3c8b6.meta</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Default\is-cache\e\7\3\d\e\3\f\3\c\8\b\6\e73de3f3c8b6.meta))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))">
       <SourceType>Package</SourceType>
