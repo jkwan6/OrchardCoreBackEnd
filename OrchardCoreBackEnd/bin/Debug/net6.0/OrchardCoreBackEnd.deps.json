@@ -9,6 +9,7 @@
       "OrchardCoreBackEnd/1.0.0": {
         "dependencies": {
           "OrchardCore.Application.Cms.Targets": "1.7.2",
+          "OrchardCoreController": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0",
           "TestModule": "1.0.0"
         },
@@ -5849,6 +5850,17 @@
           }
         }
       },
+      "OrchardCoreController/1.0.0": {
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.7.2",
+          "OrchardCore.ContentManagement": "1.7.2",
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.Module.Targets": "1.7.2"
+        },
+        "runtime": {
+          "OrchardCoreController.dll": {}
+        }
+      },
       "TestModule/1.0.0": {
         "dependencies": {
           "OrchardCore.Module.Targets": "1.7.2"
@@ -9147,6 +9159,11 @@
       "sha512": "sha512-xd503npIf5kAN8LAugMlOthWIPQGsyp/rvLxuPlTrHFf28YyYyDfsdLz1n3tvd+87PiAXZrJh0gtWulWtcBTGg==",
       "path": "zstring/2.5.0",
       "hashPath": "zstring.2.5.0.nupkg.sha512"
+    },
+    "OrchardCoreController/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "TestModule/1.0.0": {
       "type": "project",

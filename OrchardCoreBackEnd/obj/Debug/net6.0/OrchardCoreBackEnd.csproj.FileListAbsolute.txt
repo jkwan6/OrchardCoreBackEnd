@@ -433,3 +433,5 @@ C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\De
 C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\OrchardCoreController.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\OrchardCoreBackEnd\bin\Debug\net6.0\OrchardCoreController.pdb

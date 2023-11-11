@@ -9478,6 +9478,22 @@
           }
         }
       },
+      "OrchardCoreController/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.7.2",
+          "OrchardCore.ContentManagement": "1.7.2",
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.Module.Targets": "1.7.2"
+        },
+        "compile": {
+          "bin/placeholder/OrchardCoreController.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrchardCoreController.dll": {}
+        }
+      },
       "TestModule/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -26641,6 +26657,11 @@
         "zstring.nuspec"
       ]
     },
+    "OrchardCoreController/1.0.0": {
+      "type": "project",
+      "path": "../OrchardCoreController/OrchardCoreController.csproj",
+      "msbuildProject": "../OrchardCoreController/OrchardCoreController.csproj"
+    },
     "TestModule/1.0.0": {
       "type": "project",
       "path": "../TestModule/TestModule.csproj",
@@ -26650,6 +26671,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "OrchardCore.Application.Cms.Targets >= 1.7.2",
+      "OrchardCoreController >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "TestModule >= 1.0.0"
     ]
@@ -26686,6 +26708,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreController\\OrchardCoreController.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreController\\OrchardCoreController.csproj"
+            },
             "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\TestModule\\TestModule.csproj": {
               "projectPath": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\TestModule\\TestModule.csproj"
             }

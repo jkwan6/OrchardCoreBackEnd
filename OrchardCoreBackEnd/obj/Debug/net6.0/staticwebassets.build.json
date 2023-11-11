@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "cGNvdVZWjk34UIIt8BYOY5gitiftK/qFAeF4PWm65AA=",
+  "Hash": "BHMH2+S7sXsFljW8EBlipF2M+qrQEE0jpulFzpEtuP8=",
   "Source": "OrchardCoreBackEnd",
   "BasePath": "_content/OrchardCoreBackEnd",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\User\\Documents\\C# Projects\\OrchardCoreBackEnd\\OrchardCoreController\\OrchardCoreController.csproj",
+      "Version": 2,
+      "Source": "OrchardCoreController",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "OrchardCoreBackEnd\\wwwroot",

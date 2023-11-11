@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\OrchardCoreController\OrchardCoreController.csproj" />
     <ProjectReference Include="..\TestModule\TestModule.csproj" />
   </ItemGroup>
 
