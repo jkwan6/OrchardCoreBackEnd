@@ -17,13 +17,11 @@ namespace OrchardCoreController.Controller
             _contentManager = contentManager;
         }
 
-        public async void test()
+        public async Task<IActionResult> test()
         {
 
             //var test = await _contentManager.GetAsync("4x6ay4kqv774k4xv7fp5tc91dh");
-
             var contentItem = await _contentManager.NewAsync("PersonPage");
-
 
             var personPart = contentItem.As<PersonPart>();
             personPart.Name = "Test1233";
@@ -38,9 +36,10 @@ namespace OrchardCoreController.Controller
 
             //await _contentManager.CreateContentItemVersionAsync(contentItem);
             var result = await _contentManager.UpdateValidateAndCreateAsync(contentItem, VersionOptions.Draft);
-
+            //await _contentManager.CreateAsync(contentItem, VersionOptions.Draft);
             //await _contentManager.SaveDraftAsync(contentItem);
             //await _contentManager.PublishAsync(contentItem);
+            return Ok();
 
         }
 
