@@ -16,7 +16,7 @@ namespace OrchardCoreController
         {
             services.AddContentPart<PersonPart>().UseDisplayDriver<PersonPartDisplayDriver>();
             services.AddScoped<IDataMigration, PersonMigrations>();
-            services.AddContentManagement();
+            services.AddScoped<IContentManager, DefaultContentManager>();
         }
 
         public override void Configure(IApplicationBuilder builder, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
