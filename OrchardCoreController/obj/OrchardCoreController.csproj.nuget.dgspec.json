@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "OrchardCore.Autoroute": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
             "OrchardCore.ContentFields": {
               "target": "Package",
               "version": "[1.7.2, )"
@@ -56,7 +60,19 @@
               "target": "Package",
               "version": "[1.7.2, )"
             },
+            "OrchardCore.Lists": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "OrchardCore.Markdown": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
             "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "OrchardCore.Title": {
               "target": "Package",
               "version": "[1.7.2, )"
             }

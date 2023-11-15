@@ -5852,10 +5852,14 @@
       },
       "OrchardCoreController/1.0.0": {
         "dependencies": {
+          "OrchardCore.Autoroute": "1.7.2",
           "OrchardCore.ContentFields": "1.7.2",
           "OrchardCore.ContentManagement": "1.7.2",
           "OrchardCore.DisplayManagement": "1.7.2",
-          "OrchardCore.Module.Targets": "1.7.2"
+          "OrchardCore.Lists": "1.7.2",
+          "OrchardCore.Markdown": "1.7.2",
+          "OrchardCore.Module.Targets": "1.7.2",
+          "OrchardCore.Title": "1.7.2"
         },
         "runtime": {
           "OrchardCoreController.dll": {}

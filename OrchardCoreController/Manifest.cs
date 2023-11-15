@@ -7,5 +7,8 @@
     Version = "0.0.1",
     Description = "Controller Module",
     Category = "Controller Category",
-    Dependencies = new[] { "OrchardCore.ContentFields, OrchardCore.ContentManagement" }
+    Dependencies = new[] {  "OrchardCore.Autoroute, " +
+                            "OrchardCore.ContentFields, " +
+                            "OrchardCore.ContentManagement, " +
+                            "OrchardCore.List" }
 )]

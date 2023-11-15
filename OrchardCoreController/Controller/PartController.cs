@@ -1,7 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OrchardCore.Autoroute.Models;
 using OrchardCore.ContentFields.Fields;
 using OrchardCore.ContentManagement;
 using OrchardCore.ContentManagement.Handlers;
+using OrchardCore.ContentManagement.Routing;
+using OrchardCore.Lists.Models;
+using OrchardCore.Markdown.Models;
+using OrchardCore.Title.Models;
 using OrchardCoreController.Models;
 using SQLitePCL;
 using System.Net;
@@ -43,22 +48,62 @@ namespace OrchardCoreController.Controller
 
         }
 
-        private void AddValidationErrorsToModelState(ContentValidateResult result)
+        public async Task<IActionResult> test1()
         {
-            foreach (var error in result.Errors)
+            bool latest = true;
+            bool[] x = { latest };
+            //var contentItem = await _contentManager.GetAsync("4rav79ey99bxs2mk5yknz9q65b");
+            //var contentItem = await _contentManager.GetVersionAsync("4bx5pg5efnwaj24684vxrjggxt");
+            var contentItem = await _contentManager.GetAsync("4hn4czpdcgsbks3k8benf2s5m2", VersionOptions.Latest);
+            //await _contentManager.CreateContentItemVersionAsync(contentItem);
+            //var result = await _contentManager.UpdateValidateAndCreateAsync(contentItem, VersionOptions.Draft);
+            await _contentManager.RemoveAsync(contentItem);
+            //await _contentManager.CreateAsync(contentItem, VersionOptions.Draft);
+            //await _contentManager.SaveDraftAsync(contentItem);
+            //await _contentManager.PublishAsync(contentItem);
+            return Ok();
+
+        }
+
+        public async Task<IActionResult> test2()
+        {
+
+            //var test = await _contentManager.GetAsync("4x6ay4kqv774k4xv7fp5tc91dh");
+
+            var contentItemParent = await _contentManager.GetAsync("4v2gb31g5wjhczzsdh4w00dkwq", VersionOptions.Latest);
+            var contentItemChild = await _contentManager.GetAsync("4z0afz604nwe227nca05med9cq", VersionOptions.Latest);
+
+            var listPart = contentItemParent.As<ListPart>();
+
+
+            contentItemChild.Weld<ContainedPart>();
+            await contentItemChild.AlterAsync<ContainedPart>(async x =>
             {
-                if (error.MemberNames != null && error.MemberNames.Any())
-                {
-                    foreach (var memberName in error.MemberNames)
-                    {
-                        ModelState.AddModelError(memberName, error.ErrorMessage);
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError(String.Empty, error.ErrorMessage);
-                }
-            }
+                x.ListContentItemId = "4v2gb31g5wjhczzsdh4w00dkwq";
+                x.ListContentType = "Blog";
+            });
+
+            //var contentItemListList = contentItemList.As<ListPart>();
+
+            //var contentItem = await _contentManager.NewAsync("BlogPost");
+            //var titlePart = contentItem.As<TitlePart>();
+            //var autoRoutePart = contentItem.As<AutoroutePart>();
+            //var markdownBody = contentItem.As<MarkdownBodyPart>();
+
+            //titlePart.Title = "TestBlogPost";
+            //titlePart.Apply();
+
+            //markdownBody.Markdown = "test";
+            //markdownBody.Apply();
+
+            //var result = await _contentManager.UpdateValidateAndCreateAsync(contentItem, VersionOptions.Draft);
+
+            //await _contentManager.CreateContentItemVersionAsync(contentItem);
+            //await _contentManager.CreateAsync(contentItem, VersionOptions.Draft);
+            //await _contentManager.SaveDraftAsync(contentItem);
+            //await _contentManager.PublishAsync(contentItem);
+            return Ok();
+
         }
     }
 }
