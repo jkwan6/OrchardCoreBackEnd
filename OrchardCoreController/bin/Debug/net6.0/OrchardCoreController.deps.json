@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "OrchardCoreController/1.0.0": {
         "dependencies": {
+          "OrchardCore": "1.7.2",
           "OrchardCore.Autoroute": "1.7.2",
           "OrchardCore.ContentFields": "1.7.2",
           "OrchardCore.ContentManagement": "1.7.2",
@@ -569,6 +570,14 @@
           }
         }
       },
+      "NCrontab/3.3.3": {
+        "runtime": {
+          "lib/netstandard2.0/NCrontab.dll": {
+            "assemblyVersion": "3.3.3.0",
+            "fileVersion": "3.3.3.0"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -636,6 +645,17 @@
           }
         }
       },
+      "NodaTime/3.1.9": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/NodaTime.dll": {
+            "assemblyVersion": "3.1.9.0",
+            "fileVersion": "3.1.9.0"
+          }
+        }
+      },
       "Npgsql/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
@@ -645,6 +665,21 @@
           "lib/net6.0/Npgsql.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "OrchardCore/1.7.2": {
+        "dependencies": {
+          "NodaTime": "3.1.9",
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2",
+          "OrchardCore.Localization.Abstractions": "1.7.2",
+          "NCrontab": "3.3.3"
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.dll": {
+            "assemblyVersion": "1.7.2.0",
+            "fileVersion": "1.7.2.0"
           }
         }
       },
@@ -2625,6 +2660,13 @@
       "path": "mysqlconnector/2.2.1",
       "hashPath": "mysqlconnector.2.2.1.nupkg.sha512"
     },
+    "NCrontab/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2yzZXZLI0YpxrNgWnW/4xoo7ErLgWJIwTljRVEJ3hyjc7Kw9eGdjbFZGP1AhBuTUEZQ443PgZifG1yox6Qo1/A==",
+      "path": "ncrontab/3.3.3",
+      "hashPath": "ncrontab.3.3.3.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -2646,12 +2688,26 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
+    "NodaTime/3.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EzjwDOtsETlXWBDE6qvTQqc3guP+9xrAOf9j1mHL++UD4VeZay+dbCPNnXyZhoQMkKAOZ/+hIOtz7STl0Rkknw==",
+      "path": "nodatime/3.1.9",
+      "hashPath": "nodatime.3.1.9.nupkg.sha512"
+    },
     "Npgsql/7.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-tOBFksJZ2MiEz8xtDUgS5IG19jVO3nSP15QDYWiiGpXHe0PsLoQBts2Sg3hHKrrLTuw+AjsJz9iKvvGNHyKDIg==",
       "path": "npgsql/7.0.0",
       "hashPath": "npgsql.7.0.0.nupkg.sha512"
+    },
+    "OrchardCore/1.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CUhz6NzVI5vkdRpaE3U5ETW/MHUChhNlT0Kcc0yXFU5E7bb0WfOad8srjuMWz1lkCUAm5woMICGuoK1jazuRoQ==",
+      "path": "orchardcore/1.7.2",
+      "hashPath": "orchardcore.1.7.2.nupkg.sha512"
     },
     "OrchardCore.Abstractions/1.7.2": {
       "type": "package",

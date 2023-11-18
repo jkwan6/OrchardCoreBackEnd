@@ -804,6 +804,19 @@
           }
         }
       },
+      "NCrontab/3.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NCrontab.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NCrontab.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -882,6 +895,22 @@
           }
         }
       },
+      "NodaTime/3.1.9": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "compile": {
+          "lib/net6.0/NodaTime.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/NodaTime.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Npgsql/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -898,6 +927,29 @@
             "related": ".xml"
           }
         }
+      },
+      "OrchardCore/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "NodaTime": "3.1.9",
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2",
+          "OrchardCore.Localization.Abstractions": "1.7.2",
+          "ncrontab": "3.3.3"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "OrchardCore.Abstractions/1.7.2": {
         "type": "package",
@@ -4986,6 +5038,24 @@
         "mysqlconnector.nuspec"
       ]
     },
+    "NCrontab/3.3.3": {
+      "sha512": "2yzZXZLI0YpxrNgWnW/4xoo7ErLgWJIwTljRVEJ3hyjc7Kw9eGdjbFZGP1AhBuTUEZQ443PgZifG1yox6Qo1/A==",
+      "type": "package",
+      "path": "ncrontab/3.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "lib/net35/NCrontab.dll",
+        "lib/net35/NCrontab.pdb",
+        "lib/netstandard1.0/NCrontab.dll",
+        "lib/netstandard1.0/NCrontab.pdb",
+        "lib/netstandard2.0/NCrontab.dll",
+        "lib/netstandard2.0/NCrontab.pdb",
+        "ncrontab.3.3.3.nupkg.sha512",
+        "ncrontab.nuspec"
+      ]
+    },
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -5050,6 +5120,23 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "NodaTime/3.1.9": {
+      "sha512": "EzjwDOtsETlXWBDE6qvTQqc3guP+9xrAOf9j1mHL++UD4VeZay+dbCPNnXyZhoQMkKAOZ/+hIOtz7STl0Rkknw==",
+      "type": "package",
+      "path": "nodatime/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/NodaTime.dll",
+        "lib/net6.0/NodaTime.pdb",
+        "lib/net6.0/NodaTime.xml",
+        "lib/netstandard2.0/NodaTime.dll",
+        "lib/netstandard2.0/NodaTime.pdb",
+        "lib/netstandard2.0/NodaTime.xml",
+        "nodatime.3.1.9.nupkg.sha512",
+        "nodatime.nuspec"
+      ]
+    },
     "Npgsql/7.0.0": {
       "sha512": "tOBFksJZ2MiEz8xtDUgS5IG19jVO3nSP15QDYWiiGpXHe0PsLoQBts2Sg3hHKrrLTuw+AjsJz9iKvvGNHyKDIg==",
       "type": "package",
@@ -5073,6 +5160,22 @@
         "npgsql.7.0.0.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "OrchardCore/1.7.2": {
+      "sha512": "CUhz6NzVI5vkdRpaE3U5ETW/MHUChhNlT0Kcc0yXFU5E7bb0WfOad8srjuMWz1lkCUAm5woMICGuoK1jazuRoQ==",
+      "type": "package",
+      "path": "orchardcore/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.dll",
+        "lib/net6.0/OrchardCore.xml",
+        "lib/net7.0/OrchardCore.dll",
+        "lib/net7.0/OrchardCore.xml",
+        "orchardcore.1.7.2.nupkg.sha512",
+        "orchardcore.nuspec"
       ]
     },
     "OrchardCore.Abstractions/1.7.2": {
@@ -10167,6 +10270,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "OrchardCore >= 1.7.2",
       "OrchardCore.Autoroute >= 1.7.2",
       "OrchardCore.ContentFields >= 1.7.2",
       "OrchardCore.ContentManagement >= 1.7.2",
@@ -10221,6 +10325,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "OrchardCore": {
+            "target": "Package",
+            "version": "[1.7.2, )"
+          },
           "OrchardCore.Autoroute": {
             "target": "Package",
             "version": "[1.7.2, )"

@@ -1,27 +1,34 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using OrchardCore.Autoroute.Models;
 using OrchardCore.ContentFields.Fields;
 using OrchardCore.ContentManagement;
+using OrchardCore.Abstractions;
 using OrchardCore.ContentManagement.Handlers;
 using OrchardCore.ContentManagement.Routing;
 using OrchardCore.Lists.GraphQL;
 using OrchardCore.Lists.Models;
+using OrchardCore.Lists.ViewModels;
 using OrchardCore.Markdown.Models;
 using OrchardCore.Title.Models;
 using OrchardCoreController.Models;
 using SQLitePCL;
+using System.ComponentModel;
 using System.Net;
 using System.Security.Claims;
+using YesSql.Services;
+using OrchardCore;
 
 namespace OrchardCoreController.Controller
 {
     public class PartController : ControllerBase
     {
         private readonly IContentManager _contentManager;
-        
-        public PartController(IContentManager contentManager)
+        private readonly IOrchardHelper _orchardHelper;
+        public PartController(IContentManager contentManager, IOrchardHelper orchardHelper)
         {
             _contentManager = contentManager;
+            _orchardHelper = orchardHelper;
         }
 
         public async Task<IActionResult> test()
@@ -86,15 +93,16 @@ namespace OrchardCoreController.Controller
 
         public async Task<IActionResult> test3()
         {
-            var contentItemParent = await _contentManager.GetAsync("4h4bnc2kgsd16r13ww07t9bent", VersionOptions.Latest);
-            var contentItemChild = await _contentManager.GetAsync("4khhpavv843wf639rkw36rrr48", VersionOptions.Latest);
+            var contentItem = await _contentManager.GetAsync("4v2gb31g5wjhczzsdh4w00dkwq", VersionOptions.Latest);
+            //contentItem.ContentItem();
 
-            contentItemChild.Weld<ContainedPart>();
-            await contentItemChild.AlterAsync<ContainedPart>(async t => {
-                t.ListContentItemId = "4h4bnc2kgsd16r13ww07t9bent";
-                t.ListContentType = "test";
-            });
-            await _contentManager.UpdateAsync(contentItemChild);
+
+
+            var x = await _orchardHelper.QueryListItemsAsync(
+                "4v2gb31g5wjhczzsdh4w00dkwq",
+                x => x.ContentType == "BlogPost");
+            var abc = x.ToList();
+            var qwe = abc[1];
             return Ok();
 
         }

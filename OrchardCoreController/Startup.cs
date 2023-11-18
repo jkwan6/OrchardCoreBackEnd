@@ -1,12 +1,14 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
+using OrchardCore;
 using OrchardCore.ContentManagement;
 using OrchardCore.ContentManagement.Display.ContentDisplay;
 using OrchardCore.Data.Migration;
 using OrchardCoreController.Drivers;
 using OrchardCoreController.Migrations;
 using OrchardCoreController.Models;
+using OrchardCore.Modules;
 
 namespace OrchardCoreController
 {
@@ -16,6 +18,7 @@ namespace OrchardCoreController
         {
             services.AddContentPart<PersonPart>().UseDisplayDriver<PersonPartDisplayDriver>();
             services.AddScoped<IDataMigration, PersonMigrations>();
+            services.AddScoped<IOrchardHelper, DefaultOrchardHelper>();
             services.AddContentManagement();
         }
 

@@ -6239,6 +6239,7 @@
       },
       "OrchardCoreController/1.0.0": {
         "dependencies": {
+          "OrchardCore": "1.7.2",
           "OrchardCore.Autoroute": "1.7.2",
           "OrchardCore.ContentFields": "1.7.2",
           "OrchardCore.ContentManagement": "1.7.2",

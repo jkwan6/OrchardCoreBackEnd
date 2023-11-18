@@ -58,7 +58,7 @@ namespace CommerceProductModule.Controller
 
             if (String.IsNullOrEmpty(model.Email))
             {
-                ModelState.AddModelError("Email", "Email is required.");
+                return BadRequest("Email is required");
             }
 
             if (ModelState.IsValid)
@@ -68,25 +68,23 @@ namespace CommerceProductModule.Controller
 
                 if (userWithEmail != null)
                 {
-                    ModelState.AddModelError("Email", "A user with the same email already exists.");
+                    return BadRequest("A user with the same email already exists.");
                 }
             }
 
             if (ModelState.IsValid)
             {
                 var iUser = await this.RegisterUser(model, "Confirm your account", _logger);
+                if(iUser == null)  
+                {
+                    return BadRequest("Password needs to have XXX");
+                };
+
+                return Ok("User Registered");
+            
             }
-            return Ok();
+            return BadRequest();
         }
-
-        [HttpPost("test")]
-        [IgnoreAntiforgeryToken]
-        public async Task<IActionResult> test1()
-        {
-            return Ok();
-
-        }
-
     }
 
 

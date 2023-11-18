@@ -275,6 +275,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "OrchardCore": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
             "OrchardCore.Autoroute": {
               "target": "Package",
               "version": "[1.7.2, )"
