@@ -1,0 +1,12 @@
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\bin\Debug\net6.0\CommerceProductModule.deps.json
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\bin\Debug\net6.0\CommerceProductModule.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\bin\Debug\net6.0\CommerceProductModule.pdb
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\CommerceProductModule.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\CommerceProductModule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\CommerceProductModule.AssemblyInfoInputs.cache
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\CommerceProductModule.AssemblyInfo.cs
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\CommerceProductModule.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\CommerceProductModule.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\refint\CommerceProductModule.dll
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\CommerceProductModule.pdb
+C:\Users\User\Documents\C# Projects\OrchardCoreBackEnd\CommerceProductModule\obj\Debug\net6.0\ref\CommerceProductModule.dll
