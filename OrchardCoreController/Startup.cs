@@ -9,6 +9,8 @@ using OrchardCoreController.Drivers;
 using OrchardCoreController.Migrations;
 using OrchardCoreController.Models;
 using OrchardCore.Modules;
+using OrchardCore.Users.Services;
+using OrchardCore.ContentManagement.Metadata;
 
 namespace OrchardCoreController
 {
@@ -19,6 +21,9 @@ namespace OrchardCoreController
             services.AddContentPart<PersonPart>().UseDisplayDriver<PersonPartDisplayDriver>();
             services.AddScoped<IDataMigration, PersonMigrations>();
             services.AddScoped<IOrchardHelper, DefaultOrchardHelper>();
+            services.AddScoped<IMembershipService, MembershipService>();
+            services.AddScoped<IContentDefinitionManager, ContentDefinitionManager>();
+
             services.AddContentManagement();
         }
 

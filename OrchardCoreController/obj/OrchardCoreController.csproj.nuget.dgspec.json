@@ -79,6 +79,14 @@
             "OrchardCore.Title": {
               "target": "Package",
               "version": "[1.7.2, )"
+            },
+            "OrchardCore.Users": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "OrchardCore.Users.Abstractions": {
+              "target": "Package",
+              "version": "[1.7.2, )"
             }
           },
           "imports": [

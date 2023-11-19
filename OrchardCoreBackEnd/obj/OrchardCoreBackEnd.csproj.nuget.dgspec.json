@@ -203,6 +203,10 @@
               "target": "Package",
               "version": "[1.3.0, )"
             },
+            "OrchardCore.Email": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
             "OrchardCoreContrib.Apis.Swagger": {
               "target": "Package",
               "version": "[1.3.0, )"
@@ -310,6 +314,14 @@
             "OrchardCore.Title": {
               "target": "Package",
               "version": "[1.7.2, )"
+            },
+            "OrchardCore.Users": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "OrchardCore.Users.Abstractions": {
+              "target": "Package",
+              "version": "[1.7.2, )"
             }
           },
           "imports": [
@@ -372,6 +384,42 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "OrchardCore.Commerce": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OrchardCore.Commerce.AddressDataType": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OrchardCore.Commerce.ContentFields": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OrchardCore.Commerce.Inventory": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OrchardCore.Commerce.MoneyDataType": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OrchardCore.Commerce.Promotion": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OrchardCore.Commerce.Tax": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "OrchardCore.ContentManagement.Abstractions": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
             "OrchardCore.Module.Targets": {
               "target": "Package",
               "version": "[1.7.2, )"

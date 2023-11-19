@@ -140,6 +140,19 @@
           }
         }
       },
+      "libphonenumber-csharp/8.13.19": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/PhoneNumbers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/PhoneNumbers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Markdig/0.33.0": {
         "type": "package",
         "compile": {
@@ -1031,6 +1044,27 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "OrchardCore.AuditTrail.Abstractions/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement.Display": "1.7.2",
+          "YesSql.Filters.Query": "3.4.0"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.AuditTrail.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.AuditTrail.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "OrchardCore.Autoroute/1.7.2": {
         "type": "package",
         "dependencies": {
@@ -1375,6 +1409,26 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "OrchardCore.Deployment.Abstractions/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.Recipes.Abstractions": "1.7.2"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Deployment.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Deployment.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "OrchardCore.DisplayManagement/1.7.2": {
         "type": "package",
         "dependencies": {
@@ -1449,6 +1503,22 @@
         },
         "runtime": {
           "lib/net6.0/OrchardCore.DynamicCache.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Email.Abstractions/1.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/OrchardCore.Email.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Email.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -1768,6 +1838,25 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "OrchardCore.Notifications.Abstractions/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Notifications.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Notifications.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "OrchardCore.Queries.Abstractions/1.7.2": {
         "type": "package",
         "compile": {
@@ -1856,6 +1945,65 @@
           }
         }
       },
+      "OrchardCore.Roles.Core/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Roles.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Roles.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Settings.Core/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Deployment.Abstractions": "1.7.2"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Settings.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Settings.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Setup.Abstractions/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Recipes.Abstractions": "1.7.2"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Setup.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Setup.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "OrchardCore.Shortcodes.Abstractions/1.7.2": {
         "type": "package",
         "dependencies": {
@@ -1892,6 +2040,46 @@
           }
         }
       },
+      "OrchardCore.Sms.Abstractions/1.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/OrchardCore.Sms.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Sms.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Sms.Core/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2",
+          "OrchardCore.Notifications.Abstractions": "1.7.2",
+          "OrchardCore.Sms.Abstractions": "1.7.2",
+          "OrchardCore.Users.Core": "1.7.2",
+          "libphonenumber-csharp": "8.13.19"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Sms.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Sms.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "OrchardCore.Title/1.7.2": {
         "type": "package",
         "dependencies": {
@@ -1923,6 +2111,47 @@
         ],
         "build": {
           "build/OrchardCore.Title.props": {}
+        }
+      },
+      "OrchardCore.Users/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.Admin.Abstractions": "1.7.2",
+          "OrchardCore.AuditTrail.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement.Display": "1.7.2",
+          "OrchardCore.Data.Abstractions": "1.7.2",
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.Email.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2",
+          "OrchardCore.Liquid.Abstractions": "1.7.2",
+          "OrchardCore.Localization.Abstractions": "1.7.2",
+          "OrchardCore.Module.Targets": "1.7.2",
+          "OrchardCore.Navigation.Core": "1.7.2",
+          "OrchardCore.Recipes.Abstractions": "1.7.2",
+          "OrchardCore.ResourceManagement": "1.7.2",
+          "OrchardCore.Roles.Core": "1.7.2",
+          "OrchardCore.Settings.Core": "1.7.2",
+          "OrchardCore.Setup.Abstractions": "1.7.2",
+          "OrchardCore.Sms.Abstractions": "1.7.2",
+          "OrchardCore.Sms.Core": "1.7.2",
+          "OrchardCore.Users.Core": "1.7.2",
+          "OrchardCore.Workflows.Abstractions": "1.7.2"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Users.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Users.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/OrchardCore.Users.props": {}
         }
       },
       "OrchardCore.Users.Abstractions/1.7.2": {
@@ -1957,6 +2186,26 @@
         },
         "runtime": {
           "lib/net6.0/OrchardCore.Users.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "OrchardCore.Workflows.Abstractions/1.7.2": {
+        "type": "package",
+        "dependencies": {
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.Liquid.Abstractions": "1.7.2"
+        },
+        "compile": {
+          "lib/net6.0/OrchardCore.Workflows.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/OrchardCore.Workflows.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -4050,6 +4299,25 @@
         "logo.64x64.png"
       ]
     },
+    "libphonenumber-csharp/8.13.19": {
+      "sha512": "ec1OUck4wuuOOBsu7Z0QurU9YTOxveHduTewH7sXjRksBdEJUO8MCkmJZpuo6KsoJCQHwvoAtP5DzA4tDnW2OQ==",
+      "type": "package",
+      "path": "libphonenumber-csharp/8.13.19",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/PhoneNumbers.dll",
+        "lib/net6.0/PhoneNumbers.xml",
+        "lib/net7.0/PhoneNumbers.dll",
+        "lib/net7.0/PhoneNumbers.xml",
+        "lib/netstandard2.0/PhoneNumbers.dll",
+        "lib/netstandard2.0/PhoneNumbers.xml",
+        "libphonenumber-csharp.8.13.19.nupkg.sha512",
+        "libphonenumber-csharp.nuspec"
+      ]
+    },
     "Markdig/0.33.0": {
       "sha512": "wwjLxuVZyzOUpQkwMnP2eVOgCZzjHqSNsTOWxLQ1S9J5UIk43vsrgwyUBg1x7AX1MlxWH65Uyfsojm4LBwN6iw==",
       "type": "package",
@@ -5242,6 +5510,22 @@
         "orchardcore.apis.graphql.abstractions.nuspec"
       ]
     },
+    "OrchardCore.AuditTrail.Abstractions/1.7.2": {
+      "sha512": "3lRLXUG6RV/NikP1fW4NcdZkcFmLcTqXnhm9zxrqqInbViDroHxY7Gwkjvay4sWJ09maRr0rl+BuPwVzA8GPrA==",
+      "type": "package",
+      "path": "orchardcore.audittrail.abstractions/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.AuditTrail.Abstractions.dll",
+        "lib/net6.0/OrchardCore.AuditTrail.Abstractions.xml",
+        "lib/net7.0/OrchardCore.AuditTrail.Abstractions.dll",
+        "lib/net7.0/OrchardCore.AuditTrail.Abstractions.xml",
+        "orchardcore.audittrail.abstractions.1.7.2.nupkg.sha512",
+        "orchardcore.audittrail.abstractions.nuspec"
+      ]
+    },
     "OrchardCore.Autoroute/1.7.2": {
       "sha512": "kUn8Vhlthz4W2nH7715vWKhXO+OsOo3GsGwvCxsZOaPi6P5Oo+QIrz9bTrkBhD+kbegUdygiA3kyrm3gAYXObw==",
       "type": "package",
@@ -5484,6 +5768,22 @@
         "orchardcore.data.yessql.abstractions.nuspec"
       ]
     },
+    "OrchardCore.Deployment.Abstractions/1.7.2": {
+      "sha512": "Itl67HDsC5gSp9xIg+zOnyCKSPi+kB6wYWOxGOfLU3n5Oqmt/+jvJH8lI7vHgq0h5oUF+c4xn6P9PVgDkbMWdg==",
+      "type": "package",
+      "path": "orchardcore.deployment.abstractions/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Deployment.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Deployment.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Deployment.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Deployment.Abstractions.xml",
+        "orchardcore.deployment.abstractions.1.7.2.nupkg.sha512",
+        "orchardcore.deployment.abstractions.nuspec"
+      ]
+    },
     "OrchardCore.DisplayManagement/1.7.2": {
       "sha512": "nKLlCJ2GoEDI4FRO8lv5coAVMzOAxmCquSZT6yF907Q+C1nDdAj6T1gF0OviKlDU+BPQ2Q2kOIxuxKngdg/OxQ==",
       "type": "package",
@@ -5546,6 +5846,22 @@
         "lib/net7.0/OrchardCore.DynamicCache.Abstractions.xml",
         "orchardcore.dynamiccache.abstractions.1.7.2.nupkg.sha512",
         "orchardcore.dynamiccache.abstractions.nuspec"
+      ]
+    },
+    "OrchardCore.Email.Abstractions/1.7.2": {
+      "sha512": "7RK11sJUD6cEGbKREMBzTkz/fj6w/AALnHEf1ojLxte3FCW7ubX3pjBQqP5c+jbv9a1CazkoS91QrgHuSgFf5A==",
+      "type": "package",
+      "path": "orchardcore.email.abstractions/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Email.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Email.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Email.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Email.Abstractions.xml",
+        "orchardcore.email.abstractions.1.7.2.nupkg.sha512",
+        "orchardcore.email.abstractions.nuspec"
       ]
     },
     "OrchardCore.Feeds.Abstractions/1.7.2": {
@@ -5779,6 +6095,22 @@
         "orchardcore.navigation.core.nuspec"
       ]
     },
+    "OrchardCore.Notifications.Abstractions/1.7.2": {
+      "sha512": "U/ecHIU7XLBViJHHhuQUR48UKKbiSdtuu6g9os/L8Zy+NXNlhH/xbsXNLJP+DWVNVDtgiEHtG6VP06zyJyuSFQ==",
+      "type": "package",
+      "path": "orchardcore.notifications.abstractions/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Notifications.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Notifications.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Notifications.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Notifications.Abstractions.xml",
+        "orchardcore.notifications.abstractions.1.7.2.nupkg.sha512",
+        "orchardcore.notifications.abstractions.nuspec"
+      ]
+    },
     "OrchardCore.Queries.Abstractions/1.7.2": {
       "sha512": "JOOvwD0seR0AwIJmEw/GCvgg/cg3cPqxJBX1HXudXa4YmQpoXA7av/Gg4Ay8ecxUPJbdQNXz/NylMR4j3cPV1Q==",
       "type": "package",
@@ -5859,6 +6191,54 @@
         "orchardcore.resourcemanagement.core.nuspec"
       ]
     },
+    "OrchardCore.Roles.Core/1.7.2": {
+      "sha512": "9TMYz93QPzGvtM7KqIiw+YEqBXfwt932gJnLCjQtiluwRAsdiX8Q0wRWhWvBhjy6Px7KLcVjbPI5kn7lN/sSbw==",
+      "type": "package",
+      "path": "orchardcore.roles.core/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Roles.Core.dll",
+        "lib/net6.0/OrchardCore.Roles.Core.xml",
+        "lib/net7.0/OrchardCore.Roles.Core.dll",
+        "lib/net7.0/OrchardCore.Roles.Core.xml",
+        "orchardcore.roles.core.1.7.2.nupkg.sha512",
+        "orchardcore.roles.core.nuspec"
+      ]
+    },
+    "OrchardCore.Settings.Core/1.7.2": {
+      "sha512": "nPdPB1KmK2Y+QXMn2V+sjyHeM6FDR/y1iiUKINMDNEI+E1eGRVLWMhVxdC19f9OP8GKi8gQPlVO5YRdJumEj9Q==",
+      "type": "package",
+      "path": "orchardcore.settings.core/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Settings.Core.dll",
+        "lib/net6.0/OrchardCore.Settings.Core.xml",
+        "lib/net7.0/OrchardCore.Settings.Core.dll",
+        "lib/net7.0/OrchardCore.Settings.Core.xml",
+        "orchardcore.settings.core.1.7.2.nupkg.sha512",
+        "orchardcore.settings.core.nuspec"
+      ]
+    },
+    "OrchardCore.Setup.Abstractions/1.7.2": {
+      "sha512": "xo+qQ2yGBejdim+fyDcpITegWwFX94lixxVQOlKojPT+2FlL7+F/YVoZ88sLetUgZxMqVXVcRkIm5/HL+r5Lzw==",
+      "type": "package",
+      "path": "orchardcore.setup.abstractions/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Setup.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Setup.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Setup.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Setup.Abstractions.xml",
+        "orchardcore.setup.abstractions.1.7.2.nupkg.sha512",
+        "orchardcore.setup.abstractions.nuspec"
+      ]
+    },
     "OrchardCore.Shortcodes.Abstractions/1.7.2": {
       "sha512": "QXdx+8jvUbtNtAo9xvT+I72OrXJBmNI8+8eAhqVfmnseCBoDJbtJmswZ2tQ3OpQjTHrRu8pIjw6POzC5rG00oA==",
       "type": "package",
@@ -5891,6 +6271,38 @@
         "orchardcore.sitemaps.abstractions.nuspec"
       ]
     },
+    "OrchardCore.Sms.Abstractions/1.7.2": {
+      "sha512": "yeQNxzPLjWgevs2C+NUmr1Gf4+zUFziEaGjNb8WyJF/AO7Jfje9yEHUcZZnUj8f1yStvqU/XUviRgIjV0NVTHg==",
+      "type": "package",
+      "path": "orchardcore.sms.abstractions/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Sms.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Sms.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Sms.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Sms.Abstractions.xml",
+        "orchardcore.sms.abstractions.1.7.2.nupkg.sha512",
+        "orchardcore.sms.abstractions.nuspec"
+      ]
+    },
+    "OrchardCore.Sms.Core/1.7.2": {
+      "sha512": "Xei0+yDU3RfVeiVl02FcrCJHSzgTQ33QEEfH+Kh+yqEU5x8UFtDjheXsxEN2i/wsreDpOR7TOv5EVsd5KcqDgg==",
+      "type": "package",
+      "path": "orchardcore.sms.core/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Sms.Core.dll",
+        "lib/net6.0/OrchardCore.Sms.Core.xml",
+        "lib/net7.0/OrchardCore.Sms.Core.dll",
+        "lib/net7.0/OrchardCore.Sms.Core.xml",
+        "orchardcore.sms.core.1.7.2.nupkg.sha512",
+        "orchardcore.sms.core.nuspec"
+      ]
+    },
     "OrchardCore.Title/1.7.2": {
       "sha512": "hU8KpUYx+q2NGpKqANVeeuFKm2A3zo7ShuAIbyQCj5KiTILOiAo87hwiHV7yD65h3d7vx+Ys13WQ4aheK/LuZw==",
       "type": "package",
@@ -5906,6 +6318,23 @@
         "lib/net7.0/OrchardCore.Title.xml",
         "orchardcore.title.1.7.2.nupkg.sha512",
         "orchardcore.title.nuspec"
+      ]
+    },
+    "OrchardCore.Users/1.7.2": {
+      "sha512": "8cZGmbCkmC2xw8Fa0kzmdvpoL4oWvqGGaDpbMYY6WyAvVNHlgTDSU9JG8OU+s0uN/sVIqjYtVv5s05I2+alt/Q==",
+      "type": "package",
+      "path": "orchardcore.users/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/OrchardCore.Users.props",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Users.dll",
+        "lib/net6.0/OrchardCore.Users.xml",
+        "lib/net7.0/OrchardCore.Users.dll",
+        "lib/net7.0/OrchardCore.Users.xml",
+        "orchardcore.users.1.7.2.nupkg.sha512",
+        "orchardcore.users.nuspec"
       ]
     },
     "OrchardCore.Users.Abstractions/1.7.2": {
@@ -5938,6 +6367,22 @@
         "lib/net7.0/OrchardCore.Users.Core.xml",
         "orchardcore.users.core.1.7.2.nupkg.sha512",
         "orchardcore.users.core.nuspec"
+      ]
+    },
+    "OrchardCore.Workflows.Abstractions/1.7.2": {
+      "sha512": "6+jjDnT3dGWdq1FqKNofBSL2ATphvmFxS5BjFb/6spDB+7aIndDBAqPoUl35jpSu9HNZCRf+/nsszNIsBDyLVw==",
+      "type": "package",
+      "path": "orchardcore.workflows.abstractions/1.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/OrchardCore.Workflows.Abstractions.dll",
+        "lib/net6.0/OrchardCore.Workflows.Abstractions.xml",
+        "lib/net7.0/OrchardCore.Workflows.Abstractions.dll",
+        "lib/net7.0/OrchardCore.Workflows.Abstractions.xml",
+        "orchardcore.workflows.abstractions.1.7.2.nupkg.sha512",
+        "orchardcore.workflows.abstractions.nuspec"
       ]
     },
     "OrchardCore.XmlRpc.Abstractions/1.7.2": {
@@ -10278,7 +10723,9 @@
       "OrchardCore.Lists >= 1.7.2",
       "OrchardCore.Markdown >= 1.7.2",
       "OrchardCore.Module.Targets >= 1.7.2",
-      "OrchardCore.Title >= 1.7.2"
+      "OrchardCore.Title >= 1.7.2",
+      "OrchardCore.Users >= 1.7.2",
+      "OrchardCore.Users.Abstractions >= 1.7.2"
     ]
   },
   "packageFolders": {
@@ -10358,6 +10805,14 @@
             "version": "[1.7.2, )"
           },
           "OrchardCore.Title": {
+            "target": "Package",
+            "version": "[1.7.2, )"
+          },
+          "OrchardCore.Users": {
+            "target": "Package",
+            "version": "[1.7.2, )"
+          },
+          "OrchardCore.Users.Abstractions": {
             "target": "Package",
             "version": "[1.7.2, )"
           }

@@ -16,6 +16,8 @@
     <PackageReference Include="OrchardCore.Markdown" Version="1.7.2" />
     <PackageReference Include="OrchardCore.Module.Targets" Version="1.7.2" />
     <PackageReference Include="OrchardCore.Title" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.Users" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.Users.Abstractions" Version="1.7.2" />
   </ItemGroup>
 
 </Project>

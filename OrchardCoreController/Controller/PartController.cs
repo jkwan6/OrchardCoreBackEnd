@@ -18,17 +18,40 @@ using System.Net;
 using System.Security.Claims;
 using YesSql.Services;
 using OrchardCore;
+using OrchardCore.Users.Services;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
+using OrchardCore.Users;
+using Newtonsoft.Json.Linq;
+using OrchardCore.ContentManagement.Metadata.Models;
+using OrchardCore.Users.Models;
+using OrchardCore.DisplayManagement.Views;
+using OrchardCore.Users.ViewModels;
+using OrchardCore.ContentManagement.Metadata;
+using OrchardCore.Workflows.Helpers;
 
 namespace OrchardCoreController.Controller
 {
     public class PartController : ControllerBase
     {
         private readonly IContentManager _contentManager;
+        private readonly IContentDefinitionManager _contentDefinitionManager;
         private readonly IOrchardHelper _orchardHelper;
-        public PartController(IContentManager contentManager, IOrchardHelper orchardHelper)
+        private readonly IMembershipService _membershipService;
+        private readonly UserManager<IUser> _userManager;
+        public PartController(
+            IContentManager contentManager, 
+            IOrchardHelper orchardHelper, 
+            IMembershipService membershipService,
+            UserManager<IUser> userManager,
+            IContentDefinitionManager contentDefinitionManager
+            )
         {
             _contentManager = contentManager;
             _orchardHelper = orchardHelper;
+            _membershipService = membershipService;
+            _userManager = userManager;
+            _contentDefinitionManager = contentDefinitionManager;
         }
 
         public async Task<IActionResult> test()
@@ -77,7 +100,7 @@ namespace OrchardCoreController.Controller
         public async Task<IActionResult> test2()
         {
             var contentItemParent = await _contentManager.GetAsync("4v2gb31g5wjhczzsdh4w00dkwq", VersionOptions.Latest);
-            var contentItemChild = await _contentManager.GetAsync("4z0afz604nwe227nca05med9cq", VersionOptions.Latest);
+            var contentItemChild = await _contentManager.GetAsync("4rmrnygcxwxdhz3q28gj0xxkw4", VersionOptions.Latest);
 
             contentItemChild.Weld<ContainedPart>();
             await contentItemChild.AlterAsync<ContainedPart>(async t => {
@@ -106,5 +129,80 @@ namespace OrchardCoreController.Controller
             return Ok();
 
         }
+
+
+        public async Task<IActionResult> test4()
+        {
+            var contentItem123 = await _contentManager.GetAsync("4v2gb31g5wjhczzsdh4w00dkwq", VersionOptions.Latest);
+            //contentItem.ContentItem();
+
+            var test = await _membershipService.GetUserAsync("admin");
+
+            var test2 = await _userManager.FindByEmailAsync("kwcw@live.com");
+
+            var contentTypeDefinitions = GetContentTypeDefinitions();
+
+            List<ContentItem> contentItems = new List<ContentItem>();
+
+            foreach (var contentTypeDefinition in contentTypeDefinitions)
+            {
+                var isNew = false;
+                var contentItem = await GetUserSettingsAsync((User)test2, contentTypeDefinition, () => isNew = true);
+                contentItems.Add(contentItem);
+            }
+
+
+            var x = await _orchardHelper.QueryListItemsAsync(
+                "4v2gb31g5wjhczzsdh4w00dkwq",
+                x => x.ContentType == "BlogPost");
+            var abc = x.ToList();
+            var qwe = abc[1];
+            return Ok();
+
+        }
+
+
+
+
+        public async Task<IActionResult> test5()
+        {
+
+
+
+            return Ok();
+        }
+
+
+
+
+        private IEnumerable<ContentTypeDefinition> GetContentTypeDefinitions()
+    => _contentDefinitionManager
+        .ListTypeDefinitions()
+        .Where(x => x.GetStereotype() == "CustomUserSettings");
+
+        private async Task<ContentItem> GetUserSettingsAsync(User user, ContentTypeDefinition settingsType, Action isNew = null)
+        {
+            JToken property;
+            ContentItem contentItem;
+
+            if (user.Properties.TryGetValue(settingsType.Name, out property))
+            {
+                var existing = property.ToObject<ContentItem>();
+
+                // Create a new item to take into account the current type definition.
+                contentItem = await _contentManager.NewAsync(existing.ContentType);
+                contentItem.Merge(existing);
+            }
+            else
+            {
+                contentItem = await _contentManager.NewAsync(settingsType.Name);
+                isNew?.Invoke();
+            }
+
+            return contentItem;
+        }
+
+
+
     }
 }

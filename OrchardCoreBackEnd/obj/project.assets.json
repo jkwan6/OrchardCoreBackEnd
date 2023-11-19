@@ -10045,7 +10045,9 @@
           "OrchardCore.Lists": "1.7.2",
           "OrchardCore.Markdown": "1.7.2",
           "OrchardCore.Module.Targets": "1.7.2",
-          "OrchardCore.Title": "1.7.2"
+          "OrchardCore.Title": "1.7.2",
+          "OrchardCore.Users": "1.7.2",
+          "OrchardCore.Users.Abstractions": "1.7.2"
         },
         "compile": {
           "bin/placeholder/OrchardCoreController.dll": {}
@@ -10058,6 +10060,15 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "OrchardCore.Commerce": "1.3.0",
+          "OrchardCore.Commerce.AddressDataType": "1.3.0",
+          "OrchardCore.Commerce.ContentFields": "1.3.0",
+          "OrchardCore.Commerce.Inventory": "1.3.0",
+          "OrchardCore.Commerce.MoneyDataType": "1.3.0",
+          "OrchardCore.Commerce.Promotion": "1.3.0",
+          "OrchardCore.Commerce.Tax": "1.3.0",
+          "OrchardCore.ContentManagement": "1.7.2",
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
           "OrchardCore.Module.Targets": "1.7.2"
         },
         "compile": {
@@ -27919,6 +27930,7 @@
       "OrchardCore.Commerce.MoneyDataType >= 1.3.0",
       "OrchardCore.Commerce.Promotion >= 1.3.0",
       "OrchardCore.Commerce.Tax >= 1.3.0",
+      "OrchardCore.Email >= 1.7.2",
       "OrchardCoreContrib.Apis.Swagger >= 1.3.0",
       "OrchardCoreController >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
@@ -28010,6 +28022,10 @@
           "OrchardCore.Commerce.Tax": {
             "target": "Package",
             "version": "[1.3.0, )"
+          },
+          "OrchardCore.Email": {
+            "target": "Package",
+            "version": "[1.7.2, )"
           },
           "OrchardCoreContrib.Apis.Swagger": {
             "target": "Package",

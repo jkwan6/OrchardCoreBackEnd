@@ -15,6 +15,7 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)orchardcore.module.targets\1.7.2\build\OrchardCore.Module.Targets.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.module.targets\1.7.2\build\OrchardCore.Module.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.users\1.7.2\build\OrchardCore.Users.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.users\1.7.2\build\OrchardCore.Users.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.title\1.7.2\build\OrchardCore.Title.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.title\1.7.2\build\OrchardCore.Title.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.markdown\1.7.2\build\OrchardCore.Markdown.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.markdown\1.7.2\build\OrchardCore.Markdown.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.lists\1.7.2\build\OrchardCore.Lists.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.lists\1.7.2\build\OrchardCore.Lists.props')" />

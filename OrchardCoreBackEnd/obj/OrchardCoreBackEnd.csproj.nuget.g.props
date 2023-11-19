@@ -24,14 +24,25 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.themes\1.7.2\build\OrchardCore.Themes.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.themes\1.7.2\build\OrchardCore.Themes.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.admin\1.7.2\build\OrchardCore.Admin.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.admin\1.7.2\build\OrchardCore.Admin.props')" />
     <Import Project="$(NuGetPackageRoot)theadmin\1.7.2\build\TheAdmin.props" Condition="Exists('$(NuGetPackageRoot)theadmin\1.7.2\build\TheAdmin.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.title\1.7.2\build\OrchardCore.Title.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.title\1.7.2\build\OrchardCore.Title.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.templates\1.7.2\build\OrchardCore.Templates.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.templates\1.7.2\build\OrchardCore.Templates.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.taxonomies\1.7.2\build\OrchardCore.Taxonomies.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.taxonomies\1.7.2\build\OrchardCore.Taxonomies.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.markdown\1.7.2\build\OrchardCore.Markdown.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.markdown\1.7.2\build\OrchardCore.Markdown.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.localization\1.7.2\build\OrchardCore.Localization.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.localization\1.7.2\build\OrchardCore.Localization.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.html\1.7.2\build\OrchardCore.Html.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.html\1.7.2\build\OrchardCore.Html.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.contenttypes\1.7.2\build\OrchardCore.ContentTypes.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contenttypes\1.7.2\build\OrchardCore.ContentTypes.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.contentfields\1.7.2\build\OrchardCore.ContentFields.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentfields\1.7.2\build\OrchardCore.ContentFields.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.autoroute\1.7.2\build\OrchardCore.Autoroute.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.autoroute\1.7.2\build\OrchardCore.Autoroute.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.alias\1.7.2\build\OrchardCore.Alias.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.alias\1.7.2\build\OrchardCore.Alias.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.contentfields\1.3.0\build\OrchardCore.Commerce.ContentFields.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.contentfields\1.3.0\build\OrchardCore.Commerce.ContentFields.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.tax\1.3.0\build\OrchardCore.Commerce.Tax.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.tax\1.3.0\build\OrchardCore.Commerce.Tax.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.promotion\1.3.0\build\OrchardCore.Commerce.Promotion.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.promotion\1.3.0\build\OrchardCore.Commerce.Promotion.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.inventory\1.3.0\build\OrchardCore.Commerce.Inventory.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.inventory\1.3.0\build\OrchardCore.Commerce.Inventory.props')" />
+    <Import Project="$(NuGetPackageRoot)orchardcore.commerce\1.3.0\build\OrchardCore.Commerce.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce\1.3.0\build\OrchardCore.Commerce.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\6.0.5\build\Microsoft.Extensions.ApiDescription.Server.props')" />
     <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.5.0\build\Swashbuckle.AspNetCore.props')" />
     <Import Project="$(NuGetPackageRoot)safemode\1.7.2\build\SafeMode.props" Condition="Exists('$(NuGetPackageRoot)safemode\1.7.2\build\SafeMode.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.title\1.7.2\build\OrchardCore.Title.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.title\1.7.2\build\OrchardCore.Title.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.markdown\1.7.2\build\OrchardCore.Markdown.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.markdown\1.7.2\build\OrchardCore.Markdown.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.lists\1.7.2\build\OrchardCore.Lists.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.lists\1.7.2\build\OrchardCore.Lists.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.contentfields\1.7.2\build\OrchardCore.ContentFields.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentfields\1.7.2\build\OrchardCore.ContentFields.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.autoroute\1.7.2\build\OrchardCore.Autoroute.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.autoroute\1.7.2\build\OrchardCore.Autoroute.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcorecontrib.apis.swagger\1.3.0\build\OrchardCoreContrib.Apis.Swagger.props" Condition="Exists('$(NuGetPackageRoot)orchardcorecontrib.apis.swagger\1.3.0\build\OrchardCoreContrib.Apis.Swagger.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.xmlrpc\1.7.2\build\OrchardCore.XmlRpc.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.xmlrpc\1.7.2\build\OrchardCore.XmlRpc.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.workflows\1.7.2\build\OrchardCore.Workflows.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.workflows\1.7.2\build\OrchardCore.Workflows.props')" />
@@ -59,8 +70,6 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.translations.cs\1.7.1\buildTransitive\OrchardCore.Translations.cs.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.translations.cs\1.7.1\buildTransitive\OrchardCore.Translations.cs.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.translations.ar\1.7.1\buildTransitive\OrchardCore.Translations.ar.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.translations.ar\1.7.1\buildTransitive\OrchardCore.Translations.ar.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.tenants\1.7.2\build\OrchardCore.Tenants.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.tenants\1.7.2\build\OrchardCore.Tenants.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.templates\1.7.2\build\OrchardCore.Templates.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.templates\1.7.2\build\OrchardCore.Templates.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.taxonomies\1.7.2\build\OrchardCore.Taxonomies.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.taxonomies\1.7.2\build\OrchardCore.Taxonomies.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.spatial\1.7.2\build\OrchardCore.Spatial.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.spatial\1.7.2\build\OrchardCore.Spatial.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.sms\1.7.2\build\OrchardCore.Sms.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.sms\1.7.2\build\OrchardCore.Sms.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.sitemaps\1.7.2\build\OrchardCore.Sitemaps.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.sitemaps\1.7.2\build\OrchardCore.Sitemaps.props')" />
@@ -93,11 +102,9 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.media.azure\1.7.2\build\OrchardCore.Media.Azure.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.media.azure\1.7.2\build\OrchardCore.Media.Azure.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.media.amazons3\1.7.2\build\OrchardCore.Media.AmazonS3.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.media.amazons3\1.7.2\build\OrchardCore.Media.AmazonS3.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.media\1.7.2\build\OrchardCore.Media.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.media\1.7.2\build\OrchardCore.Media.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.localization\1.7.2\build\OrchardCore.Localization.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.localization\1.7.2\build\OrchardCore.Localization.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.liquid\1.7.2\build\OrchardCore.Liquid.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.liquid\1.7.2\build\OrchardCore.Liquid.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.layers\1.7.2\build\OrchardCore.Layers.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.layers\1.7.2\build\OrchardCore.Layers.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.https\1.7.2\build\OrchardCore.Https.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.https\1.7.2\build\OrchardCore.Https.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.html\1.7.2\build\OrchardCore.Html.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.html\1.7.2\build\OrchardCore.Html.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.homeroute\1.7.2\build\OrchardCore.HomeRoute.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.homeroute\1.7.2\build\OrchardCore.HomeRoute.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.healthchecks\1.7.2\build\OrchardCore.HealthChecks.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.healthchecks\1.7.2\build\OrchardCore.HealthChecks.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.google\1.7.2\build\OrchardCore.Google.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.google\1.7.2\build\OrchardCore.Google.props')" />
@@ -114,16 +121,9 @@
     <Import Project="$(NuGetPackageRoot)orchardcore.dataprotection.azure\1.7.2\build\OrchardCore.DataProtection.Azure.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.dataprotection.azure\1.7.2\build\OrchardCore.DataProtection.Azure.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.customsettings\1.7.2\build\OrchardCore.CustomSettings.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.customsettings\1.7.2\build\OrchardCore.CustomSettings.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.cors\1.7.2\build\OrchardCore.Cors.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.cors\1.7.2\build\OrchardCore.Cors.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.contenttypes\1.7.2\build\OrchardCore.ContentTypes.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contenttypes\1.7.2\build\OrchardCore.ContentTypes.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.contents\1.7.2\build\OrchardCore.Contents.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contents\1.7.2\build\OrchardCore.Contents.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.contentpreview\1.7.2\build\OrchardCore.ContentPreview.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentpreview\1.7.2\build\OrchardCore.ContentPreview.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.contentlocalization\1.7.2\build\OrchardCore.ContentLocalization.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.contentlocalization\1.7.2\build\OrchardCore.ContentLocalization.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.alias\1.7.2\build\OrchardCore.Alias.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.alias\1.7.2\build\OrchardCore.Alias.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.contentfields\1.3.0\build\OrchardCore.Commerce.ContentFields.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.contentfields\1.3.0\build\OrchardCore.Commerce.ContentFields.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.tax\1.3.0\build\OrchardCore.Commerce.Tax.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.tax\1.3.0\build\OrchardCore.Commerce.Tax.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.promotion\1.3.0\build\OrchardCore.Commerce.Promotion.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.promotion\1.3.0\build\OrchardCore.Commerce.Promotion.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.commerce.inventory\1.3.0\build\OrchardCore.Commerce.Inventory.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce.inventory\1.3.0\build\OrchardCore.Commerce.Inventory.props')" />
-    <Import Project="$(NuGetPackageRoot)orchardcore.commerce\1.3.0\build\OrchardCore.Commerce.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.commerce\1.3.0\build\OrchardCore.Commerce.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.backgroundtasks\1.7.2\build\OrchardCore.BackgroundTasks.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.backgroundtasks\1.7.2\build\OrchardCore.BackgroundTasks.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.autosetup\1.7.2\build\OrchardCore.AutoSetup.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.autosetup\1.7.2\build\OrchardCore.AutoSetup.props')" />
     <Import Project="$(NuGetPackageRoot)orchardcore.audittrail\1.7.2\build\OrchardCore.AuditTrail.props" Condition="Exists('$(NuGetPackageRoot)orchardcore.audittrail\1.7.2\build\OrchardCore.AuditTrail.props')" />
@@ -135,13 +135,13 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\User\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\User\.nuget\packages\microsoft.sourcelink.common\1.1.1</PkgMicrosoft_SourceLink_Common>
+    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">C:\Users\User\.nuget\packages\microsoft.build.tasks.git\1.1.1</PkgMicrosoft_Build_Tasks_Git>
+    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">C:\Users\User\.nuget\packages\microsoft.sourcelink.github\1.1.1</PkgMicrosoft_SourceLink_GitHub>
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\User\.nuget\packages\microsoft.extensions.apidescription.server\6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgLucene_Net Condition=" '$(PkgLucene_Net)' == '' ">C:\Users\User\.nuget\packages\lucene.net\4.8.0-beta00016</PkgLucene_Net>
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\User\.nuget\packages\awssdk.core\3.7.106.32</PkgAWSSDK_Core>
     <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\User\.nuget\packages\awssdk.securitytoken\3.7.101.60</PkgAWSSDK_SecurityToken>
     <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\User\.nuget\packages\awssdk.s3\3.7.104.11</PkgAWSSDK_S3>
-    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">C:\Users\User\.nuget\packages\microsoft.sourcelink.common\1.1.1</PkgMicrosoft_SourceLink_Common>
-    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">C:\Users\User\.nuget\packages\microsoft.build.tasks.git\1.1.1</PkgMicrosoft_Build_Tasks_Git>
-    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">C:\Users\User\.nuget\packages\microsoft.sourcelink.github\1.1.1</PkgMicrosoft_SourceLink_GitHub>
   </PropertyGroup>
 </Project>
