@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomFormModule", "CustomF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCoreController", "OrchardCoreController\OrchardCoreController.csproj", "{C0BC5E2D-6280-4952-A994-F6D7AA4DDECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommerceProductModule", "CommerceProductModule\CommerceProductModule.csproj", "{93061978-9F3C-4E3E-B532-F5FA35195F14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommerceProductModule", "CommerceProductModule\CommerceProductModule.csproj", "{93061978-9F3C-4E3E-B532-F5FA35195F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogModule", "BlogModule\BlogModule.csproj", "{5D4C3958-6D92-4701-8A48-751911F07574}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{93061978-9F3C-4E3E-B532-F5FA35195F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93061978-9F3C-4E3E-B532-F5FA35195F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93061978-9F3C-4E3E-B532-F5FA35195F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4C3958-6D92-4701-8A48-751911F07574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4C3958-6D92-4701-8A48-751911F07574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4C3958-6D92-4701-8A48-751911F07574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4C3958-6D92-4701-8A48-751911F07574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
